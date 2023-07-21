@@ -7,13 +7,31 @@
     <title>index</title>
   </head>
   <body>
-    <%- include('./layout/header'); -%>
+    
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+    <div class="container mb24">
+      <ul class="news mr20">
+          <li class="newslist mb24">
+              <img class="mr20" src="../assets/images/96.png" alt="news">
+              <div class="newssummary">
+                  <h1>Lorem</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non saepe ab praesentium iure quia</p>
+              </div>
+          </li>
+          <li class="newslist">
+              <img class="mr20" src="../assets/images/96.png" alt="news">
+              <div class="newssummary">
+                  <h2>Lorem</h2>
+                  <p>Nulla praesentium voluptatum est reiciendis, consectetur, quasi labore minima corrupti corporis, quos nam</p>
+              </div>
+          </li>
+      </ul>
+      <img src="../assets/images/216.png" alt="ads">
+  </div>
+  <div class="footer">
+      <p>Lorem, ipsum dolor.</p>
+  </div>
 
-    <%- include('./layout/footer'); -%>
-
-    <script type="module" src="../main.js"></script>
+   <script type="module" src="../main.js"></script>
   </body>
 </html>
